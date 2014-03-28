@@ -1,5 +1,7 @@
 # Simple
 
+For education
+
 ## install
 
     gem install sinatra
