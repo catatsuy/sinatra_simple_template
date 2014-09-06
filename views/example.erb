@@ -10,11 +10,11 @@
       <p>こんにちは</p>
       <%= escape_html("<script>alert('sample')</script>") %>
       <p>
-      <% if 3 % 2 == 1 %>
-      ここは表示される
-      <% else %>
-      ここは表示されない
-      <% end %>
+        <% if 3 % 2 == 1 %>
+        ここは表示される
+        <% else %>
+        ここは表示されない
+        <% end %>
       </p>
     </div>
     <script src="/js/jquery.js"></script>
