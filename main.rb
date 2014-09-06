@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "Hello world"
+  return "Hello world"
 end
 
 get '/example' do
